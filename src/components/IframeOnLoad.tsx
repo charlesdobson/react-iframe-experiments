@@ -47,13 +47,13 @@ const IframeOnLoad = () => {
       />
       <div>
         <button
-          className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          className="bg-slate-700 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded"
           onClick={() => setSameOriginSrcDoc("<div>inline html</div>")}
         >
           load same origin
         </button>
         <button
-          className="ml-4 border-2 border-blue-400 hover:border-blue-600 text-blue-400 hover:text-blue-600 font-bold py-2 px-4 rounded"
+          className="ml-4 border-2 border-slate-700 hover:border-slate-500 text-slate-700 hover:text-slate-500 font-bold py-2 px-4 rounded"
           onClick={onSameOriginClear}
         >
           clear
@@ -68,13 +68,13 @@ const IframeOnLoad = () => {
       </div>
       <div>
         <button
-          className="bg-blue-400 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          className="bg-slate-700 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded"
           onClick={() => setCrossOriginSrc("https://www.example.com")}
         >
           load cross origin
         </button>
         <button
-          className="ml-4 border-2 border-blue-400 hover:border-blue-600 text-blue-400 hover:text-blue-600 font-bold py-2 px-4 rounded"
+          className="ml-4 border-2 border-slate-700 hover:border-slate-500 text-slate-700 hover:text-slate-500 font-bold py-2 px-4 rounded"
           onClick={onCrossOriginClear}
         >
           clear
